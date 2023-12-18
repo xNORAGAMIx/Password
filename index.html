@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+    <style>
+        .out{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1 class="header">Password Manager</h1>
+        <div class="showbutt">
+            <input type="password" placeholder="PASSWORD" id="userpass">
+            <button id="show">Show</button>
+        </div>
+    </div>
+    <div class="out">
+        <ul class="listout">
+            <li class="innerparent"><p class="passname">Google</p><p class="passout">12345</p></li>
+            <li class="innerparent"><p class="passname">Facebook</p><p class="passout">12345</p></li>
+            <li class="innerparent"><p class="passname">Netflix</p><p class="passout">12345</p></li>
+        </ul>
+        <input type="text" id="prom" placeholder="Password Name">
+        <input type="password" name="" id="newpass" placeholder="PASSWORD">
+        <button id="change">Change</button>
+    </div>
+    <h2 id="label_check"></h2>
+</body>
+<script src="script.js"></script>
+</html>
